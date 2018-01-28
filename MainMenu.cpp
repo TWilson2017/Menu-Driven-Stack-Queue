@@ -21,7 +21,7 @@ void ShowCommands()
 		 << "1) Stack" << endl
 		 << "2) Queue" << endl
 		 << "3) Quit" << endl;
-	cout << endl;
+	    cout << endl;
 }//ShowCommands
 
 //-|----------------------------------------------------------------
