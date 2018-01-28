@@ -23,15 +23,15 @@ class ReadDataStack
 		//Print Stack Elements To a File
 		void Print();
 	
-	   //Destructor for Stack
+	        //Destructor for Stack
 		~ReadDataStack()
 		{
-			StackNode *ptr;
-            for (ptr = Top; Top; ptr = Top)
-            {
-                Top = Top->next;
-                delete ptr;
-            }//for
+		    StackNode *ptr;
+                    for (ptr = Top; Top; ptr = Top)
+                    {
+                       Top = Top->next;
+                       delete ptr;
+                    }//for
 		}//Destructor
 		
     private:
