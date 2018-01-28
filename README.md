@@ -1,4 +1,4 @@
-																Stack & Queue Menu Driven Program
+					           Stack & Queue Menu Driven Program
 
 This is a menu-driven C++ program that implements a Stack and a Queue.
 This program will read in some text from a file and extract numbers and punctuation from the text.
