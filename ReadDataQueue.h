@@ -20,7 +20,7 @@ class ReadDataQueue
 		//Print Queue Elements To a File
 		void Print();
 	
-	   //Destructor for Queue
+	        //Destructor for Queue
 		~ReadDataQueue()
 		{
 			QueueNode *temp = new QueueNode();
@@ -33,7 +33,7 @@ class ReadDataQueue
 			Rear = NULL;
 		}//Destructor
 		
-    private:
+        private:
 		struct QueueNode
 		{
 			string Word;
