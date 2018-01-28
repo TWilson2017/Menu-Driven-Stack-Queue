@@ -17,7 +17,7 @@ void ReadDataQueue:: ReadInData()
 	ifstream inF;      //Variable for Reading in a File
 	char inFName[80];  //Variable for Reading in a File Name
 	string Text = "";  //Variable to hold the word read from the file
-    string temp = "";
+        string temp = "";
 	WordCounter = 0;
 	
 	//Prompt for the Input File Name
@@ -41,7 +41,7 @@ void ReadDataQueue:: ReadInData()
 		{
 			//Remove Numbers & Punctuation From Input
 			string::iterator it = Text.begin();
-            while (it != Text.end())
+                        while (it != Text.end())
 			{
 				 while(it != Text.end() && isdigit(*it) || it != Text.end() && ispunct(*it))
 				 {
