@@ -16,7 +16,7 @@ void ReadDataStack:: ReadInData()
 	ifstream inF;      //Variable for Reading in a File
 	char inFName[80];  //Variable for Reading in a File Name
 	string Text = "";  //Variable to hold the word read from the file
-    string temp = "";
+        string temp = "";
 	
 	
 	//Prompt for the Input File Name
@@ -40,7 +40,7 @@ void ReadDataStack:: ReadInData()
 		{
 			//Remove Numbers & Punctuation From Input
 			string::iterator it = Text.begin();
-            while (it != Text.end())
+                        while (it != Text.end())
 			{
 				 while(it != Text.end() && isdigit(*it) || it != Text.end() && ispunct(*it))
 				 {
@@ -129,7 +129,7 @@ void ReadDataStack:: Print()
 	//Test Out File For Error
 	if(OutF.fail())
 	{
-		   cout << endl << "FATAL ERROR: UNABLE TO OPEN FILE \"report_out.txt\". TERMINATING..."
+           cout << endl << "FATAL ERROR: UNABLE TO OPEN FILE \"report_out.txt\". TERMINATING..."
                 << endl << endl;
            exit (1);
 	}//if
